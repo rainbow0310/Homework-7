@@ -1,0 +1,19 @@
+2a. 
+
+Grid snapping is a feature in Unity that helps you position objects with precision by aligning them to a grid; it removes the need for manual adjustments and ensures objects move in fixed increments. 
+
+Incremental Snap refers to the ability to move, rotate, or scale an object by a fixed step size when using the Move, Rotate, or Scale tools in the Unity editor. When enabled, every action you perform on the object will follow a defined increment instead of moving or rotating freely by any arbitrary value.
+
+
+3a. 
+
+The ExecuteAlways attribute in Unity enables a script to run in both Scene mode and Game mode, which is particularly helpful when testing a script's behavior during game development without having to constantly switch between play mode. It can be coupled with Application.IsPlaying, a Boolean variable, to determine if the script is executing in the Scene mode or Game mode. True indicates Game mode and False indicates Scene mode
+
+
+5a. 
+
+Linear interpolation is a function used in Unity to create smooth transitions for game objects as they travel from one position to another. The Lerp function calculates a value between a starting and ending value based on a percentage ranging from 0 to 1. It takes 3 inputs in Vector 3, 
+Vector3.Lerp(startPosition, endPosition, t), where:
+- startPosition: represents the initial position of the game object.
+- endPosition: represents the final position of the game object.
+- t: the travel percentage, between 0 and 1. When t is 0, the object is at the startPosition. When t is 1, the object reaches the endPosition.
